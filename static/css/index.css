@@ -7,8 +7,9 @@
 body {
   font-family: 'Source Code Pro', monospace;
 }
-.header {
-  background: url("https://static.pexels.com/photos/9346/hands-desk-office-working-large.jpg");
+
+.header { 
+  background: url('https://bootstrapbay.com/blog/wp-content/uploads/2014/05/negative-space.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
