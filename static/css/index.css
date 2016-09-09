@@ -39,6 +39,9 @@ body {
 .nav li {
   display: inline-block;
 }
+.go{
+  margin-left: 30px;
+}
 .nav a {
   display: inline-block;
   padding: 20px;
