@@ -9,11 +9,21 @@ body {
 }
 
 .header { 
-  background: url('https://bootstrapbay.com/blog/wp-content/uploads/2014/05/negative-space.jpg');
+  /*background: url('https://bootstrapbay.com/blog/wp-content/uploads/2014/05/negative-space.jpg');*/
+  background: url('/img/wall.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-filter: contrast(85%); 
+  filter: contrast(85%);*/
+  -moz-box-shadow:    inset 0 0 200px #000000;
+   -webkit-box-shadow: inset 0 0 200px #000000;
+   box-shadow:         inset 0 0 200px #000000;
 }
+.header .go {
+  padding: 80px;
+}
+
 .header .page-title {
   font-weight: 200;
   font-size: 80px;
@@ -23,7 +33,7 @@ body {
   color: #fff;
 }
 .nav {
-  background: #000;
+  background: #1d5a72; /*000*/
   text-align: center;
 }
 .nav li {
