@@ -1,0 +1,6 @@
+# Ignoring .DS_Files
+imgs/*.DS_Store
+source/*.DS_Store
+static/*.DS_Store
+node_modules/*.DS_Stores
+/*.DS_Store

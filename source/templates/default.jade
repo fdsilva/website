@@ -6,16 +6,23 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='')
     meta(name='author', content='')
+
+    // Image favicon
+    link(rel='shortcut icon', type='image/png', href='../img/favicon.ico')
+    
+    // Page title
     title Mobillia App's Studio
+    
     // Bootstrap Core CSS
-    link(rel='icon', href='img/logo_b.png')
     link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    
     // Custom Fonts
     link(href='vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+    
     // Theme CSS
     link(href='css/agency.min.css', rel='stylesheet')
     // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
@@ -24,9 +31,11 @@ html(lang='en')
       script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
       script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
   body#page-top.index
+    
     // Navigation
     nav#mainNav.navbar.navbar-default.navbar-custom.navbar-fixed-top
       .container
+        
         // Brand and toggle get grouped for better mobile display
         .navbar-header.page-scroll
           button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
@@ -36,6 +45,7 @@ html(lang='en')
           a.navbar-brand.page-scroll(href='#page-top')
             img(src='../img/logo.png', alt='HTML tutorial', width='50%', height='50%', style=' position: absolute; width: 150px;\
             height: 50px; margin-top: -15px; margin-left: 20px;')
+        
         // Collect the nav links, forms, and other content for toggling
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           ul.nav.navbar-nav.navbar-right

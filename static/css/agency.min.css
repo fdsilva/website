@@ -212,7 +212,7 @@ fieldset[disabled] .btn-xl:hover {
         border-radius: 3px
     }
     .navbar-custom.affix {
-        background-color: #222;
+        background-color: #51A8B1;
         padding: 10px 0
     }
     .navbar-custom.affix .navbar-brand {
@@ -220,7 +220,7 @@ fieldset[disabled] .btn-xl:hover {
     }
 }
 header {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/bg_novo.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
